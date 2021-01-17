@@ -13,7 +13,6 @@ main {
 h1 {
     font-family: 'Tauri', sans-serif;
     font-size: 30px;
-    font-weight: bolder;
     margin-top: 5vw;
     scroll-margin-top: 90px;
 }
@@ -30,7 +29,6 @@ p {
 
 #code {
     background-color: #22223b;
-    width: auto;
     padding: 0;
     color: white;
     border-radius: 10px;
@@ -103,6 +101,11 @@ pre {
     #paragraph {
         width: 66vw;
     }
+
+    #code {
+        font-size: 12px;
+        overflow: scroll;
+    }
 }
 
 #navbar-section {
@@ -140,6 +143,7 @@ pre {
     text-decoration: none;
     color: black;
     display: list-item;
+    font-weight: 600;
 }
 
 a {
